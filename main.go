@@ -20,7 +20,7 @@ var db *sql.DB
 var err error
 
 func main() {
-    db, err = sql.Open("mysql", "user:password@tcp(localhost:3306)/databases") //ganti ini
+    db, err = sql.Open("mysql", "user:password@tcp(localhost:3306)/ehe") //ganti ini
     if err != nil {
         log.Fatal(err)
     }
